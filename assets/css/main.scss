@@ -3,10 +3,11 @@
 
 @import "syntax";
 
-body {
+#main {
     max-width: 1200px;
-    margin: 0 auto;
     line-height: 1.5;
+    border: thin solid;
+    margin: 48px auto;
 }
 
 #post {
