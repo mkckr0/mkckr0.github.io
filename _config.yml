@@ -66,3 +66,4 @@ kramdown:
       wrap: true
 
 paginate: 10
+paginate_path: "/blog/page_:num"
