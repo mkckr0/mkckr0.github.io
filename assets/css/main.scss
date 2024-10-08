@@ -1,0 +1,62 @@
+---
+---
+
+@import "syntax";
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#post {
+    line-height: 2;
+    padding: 12px 24px;
+}
+
+#post h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#post p.date {
+    text-align: center;
+}
+
+#post>table td {
+    border-top: 1px solid #d8dee4;
+    padding: 4px 16px;
+}
+
+#post>table {
+    border-spacing: 0;
+}
+
+#post>table th {
+    border-bottom: 2px solid #d8dee4;
+}
+
+footer p {
+    text-align: right;
+}
+
+pre, code {
+    font-family: Consolas;
+    font-size: small;
+    overflow-x: auto;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 0.25em solid #d1d9e0;
+    padding: 0 2em;
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+p img {
+    max-width: 55%;
+}

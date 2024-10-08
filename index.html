@@ -1,0 +1,27 @@
+---
+layout: page
+title: Home
+---
+
+{% for post in paginator.posts %}
+<div style="margin: 24px 0;">
+  <div><a href="{{ post.url }}"><h1 style="margin-bottom: 4px; display: inline;">{{ post.title }}</h1></a></div>
+  <span>{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
+</div>
+{% endfor %}
+
+<br>
+
+{% if paginator.total_pages %}
+<div style="display: flex; justify-content: space-between; margin: 12px 0;">
+  <span>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">Next</a>
+    {% endif %}
+  </span>
+  <span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
+</div>
+{% endif %}
