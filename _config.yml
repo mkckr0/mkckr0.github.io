@@ -28,6 +28,8 @@ cc_profile: https://github.com/mkckr0
 timezone: Asia/Shanghai
 
 # Build settings
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
