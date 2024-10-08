@@ -25,11 +25,13 @@ repo_url: https://github.com/mkckr0/mkckr0.github.io
 cc_author: mkckr0
 cc_profile: https://github.com/mkckr0
 
-timezone: Asia/Shanghai
-
 # Build settings
 plugins:
   - jekyll-sitemap
+
+# output
+permalink: /blog/:year/:title:output_ext
+timezone: Asia/Shanghai
 
 # Exclude from processing.
 # The following items will not be processed, by default.
