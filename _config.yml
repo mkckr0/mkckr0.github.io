@@ -18,16 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: mkckr0's page
-author: mkckr0
-author_url: https://github.com/mkckr0
-repo_url: https://github.com/mkckr0/mkckr0.github.io
-cc_author: mkckr0
-cc_profile: https://github.com/mkckr0
+author:
+  name: mkckr0
+  url: https://github.com/mkckr0
+source_url: https://github.com/mkckr0/mkckr0.github.io
+repository: mkckr0/mkckr0.github.io
 
 # Build settings
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
 
 # output
 permalink: /blog/:year/:title:output_ext
@@ -62,3 +63,7 @@ kramdown:
 
 paginate: 10
 paginate_path: "/blog/page_:num"
+
+webmaster_verifications:
+  google: croszSf2DmpOKs461yxlM-eLv5vI3zFdUpvdYUrviYY
+  bing: 72A92EBC28D29DFCA005FC97305E8C23
