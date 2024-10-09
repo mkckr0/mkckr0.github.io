@@ -66,3 +66,9 @@ paginate_path: "/blog/page_:num"
 webmaster_verifications:
   google: croszSf2DmpOKs461yxlM-eLv5vI3zFdUpvdYUrviYY
   bing: 72A92EBC28D29DFCA005FC97305E8C23
+
+defaults:
+  - scope:
+      path: "assets/*"
+    values:
+      sitemap: false
