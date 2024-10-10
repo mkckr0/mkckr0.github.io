@@ -6,7 +6,7 @@ title: Blog
 {% for post in paginator.posts %}
 <div style="margin: 24px 0;">
   <div><a href="{{ post.url }}"><span style="margin-bottom: 4px; display: inline; font-size: large">{{ post.title }}</span></a></div>
-  <span>{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
+  <span>{{ post.date | date: "%Y-%m-%d %H:%M %Z" }}</span>
 </div>
 {% endfor %}
 
