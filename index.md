@@ -5,9 +5,9 @@ title: Home
 
 Projects:
 
-- [Audio Share](https://github.com/mkckr0/audio-share){:target="_blank"}
+- [Audio Share](https://github.com/mkckr0/audio-share)
 
 Mirrors:
 
-- [cppreference-mirror](https://mkckr0.github.io/cppreference-mirror){:target="_blank"}
-- [poj-mirror](https://mkckr0.github.io/poj-mirror){:target="_blank"}
+- [cppreference-mirror](https://mkckr0.github.io/cppreference-mirror)
+- [poj-mirror](https://mkckr0.github.io/poj-mirror)
