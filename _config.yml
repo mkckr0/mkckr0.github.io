@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+title: mkckr0's Homepage
 author:
   name: mkckr0
   url: https://github.com/mkckr0
