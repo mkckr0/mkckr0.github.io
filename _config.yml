@@ -23,7 +23,6 @@ author:
   name: mkckr0
   url: https://github.com/mkckr0
 source_url: https://github.com/mkckr0/mkckr0.github.io
-repository: mkckr0/mkckr0.github.io
 
 # Build settings
 plugins:
@@ -67,7 +66,7 @@ kramdown:
       line_numbers: true
 
 paginate: 10
-paginate_path: "/blog/page_:num"
+paginate_path: "/blog/page/:num"
 
 webmaster_verifications:
   google: croszSf2DmpOKs461yxlM-eLv5vI3zFdUpvdYUrviYY
@@ -78,3 +77,8 @@ defaults:
       path: "assets/*"
     values:
       sitemap: false
+  - scope:
+      path: "blog/page"
+    values:
+      sitemap: false
+    
