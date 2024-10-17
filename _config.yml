@@ -30,6 +30,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-last-modified-at
 
 # output
 permalink: /blog/:year/:title:output_ext
@@ -54,6 +55,11 @@ timezone: Asia/Shanghai
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - .git
+  - .vscode
+  - .github
+  - .gitignore
 
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
