@@ -62,6 +62,7 @@ exclude:
 
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
+  parse_block_html: true
   syntax_highlighter_opts:
     block:
       line_numbers: true
