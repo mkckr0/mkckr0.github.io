@@ -9,11 +9,11 @@ UDP socket 编程在各种操作系统和编程语言都有不同的实现，但
 
 - bind 会设置 local_addr。
 
-- connect 除了会设置 remote_addr，还会自动`bind <remote_host>:<random_port>`。例如：`connect 192.168.1.2:65533` 会自动 `bind 192.168.1.2:<random_port>`。
+- connect 除了会设置 remote_addr，还会自动`bind <local_addr>:<random_port>`。例如：`connect 192.168.1.3:65533` 会自动 `bind 192.168.1.2:<random_port>`。
 
 - sendto 会自动 `bind 0.0.0.0:<random_port>` 不会设置 remote_addr。
 
-- recvfrom 无法自动 bind，因为 local_addr 是 `0.0.0.0:0` 无法收到数据包，会直接block。
+- recvfrom 不会自动 bind，调用 recvfrom 之前必须先 bind 才能接收到数据包。因为 local_addr 是 `0.0.0.0:0` 无法收到数据包，会直接block。
 
 - 先 bind 再 connect 不会有问题，因为 connect 或者 sendto 会判断是不是已经 bound。但是先 connect 再 bind 会重复 bind。
 
