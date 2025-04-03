@@ -25,11 +25,11 @@ Cotes 系数有两条性质：
 
 ## 证明对称性
 
-观察 $ C_{i}^{(n)} $ 可以发现 $ i! (n-i)! $ 具有对称性，所以只需要证明 $ \displaystyle (-1) ^{n-i} \int_{a}^{b} \prod_{\substack{j=0 \\ j \neq i}}^{n} (t-j) dt = (-1) ^{i} \int_{a}^{b} \prod_{\substack{j=0 \\ j \neq n-i}}^{n} (t-j) dt $。
+观察 $ C_{i}^{(n)} $ 可以发现 $ i! (n-i)! $ 具有对称性，所以只需要证明 $ \displaystyle (-1) ^{n-i} \int_{a}^{b} \prod_{\substack{j=0 \\\\ j \neq i}}^{n} (t-j) dt = (-1) ^{i} \int_{a}^{b} \prod_{\substack{j=0 \\\\ j \neq n-i}}^{n} (t-j) dt $。
 
-可以看到被积函数 $\displaystyle \prod_{\substack{j=0 \\ j \neq i}}^{n} (t-j) $ 和 $\displaystyle \prod_{\substack{j=0 \\ j \neq n-i}}^{n} (t-j) $ 既不相等，也不相差 $ (-1)^{k} $。无法通过定积分线性变换得出积分值相等。
+可以看到被积函数 $\displaystyle \prod_{\substack{j=0 \\\\ j \neq i}}^{n} (t-j) $ 和 $\displaystyle \prod_{\substack{j=0 \\\\ j \neq n-i}}^{n} (t-j) $ 既不相等，也不相差 $ (-1)^{k} $。无法通过定积分线性变换得出积分值相等。
 
-观察 4 阶 Cotes 系数 $ C_{1}^{(4)} $ 和 $ C_{3}^{(4)} $ 的 $\displaystyle \prod_{\substack{j=0 \\ j \neq i}}^{n} (t-j) $
+观察 4 阶 Cotes 系数 $ C_{1}^{(4)} $ 和 $ C_{3}^{(4)} $ 的 $\displaystyle \prod_{\substack{j=0 \\\\ j \neq i}}^{n} (t-j) $
 
 $$
 \begin{align}
