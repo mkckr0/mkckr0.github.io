@@ -19,10 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: mkckr0's Homepage
-author:
-  name: mkckr0
-  url: https://github.com/mkckr0
-source_url: https://github.com/mkckr0/mkckr0.github.io
 repository: mkckr0/mkckr0.github.io # needed by GitHub Metadata
 
 # Build settings
